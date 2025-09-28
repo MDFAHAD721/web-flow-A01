@@ -50,7 +50,18 @@ body{
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+    transition: all 0.6s ease;
 }
+.common-button:hover,
+.form-button:hover {
+    background-color: rgba(78, 71, 255, 0.1);
+    color: #4E47FF; 
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: all 0.6s ease;
+}
+
+
 /* HEADER STYLES */
 header{
     background-image: url(../Assets/Hero-bg.png);
@@ -250,6 +261,7 @@ textarea {
     border-radius: 10px;
     border: none;
     margin-bottom: 71px;
+    transition: all 0.6s ease;
 }
 /* FOOTER SECTION STYLES */
 .footer-section{
