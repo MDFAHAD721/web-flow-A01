@@ -95,3 +95,31 @@ main{
 .section-img{
     border-radius: 48px;
 }
+/* USER SECTION */
+.user-section-container{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin-bottom: 137px;
+    border-radius: 24px;
+}
+.user-section-title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+.users-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.users h1{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+.users p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
