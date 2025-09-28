@@ -13,6 +13,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 body{
     background-color: #F8F8FF;
@@ -24,10 +25,10 @@ body{
     color: #FFFFFF;
 }
 .black{
-    color: #rgba(37, 36, 50, 1);
+    color: rgba(37, 36, 50, 1);
 }
 .secondary-black{
-    color: #rgba(30, 30, 30, 1);
+    color: rgba(30, 30, 30, 1);
 }
 .grey{
     color: #757575;
@@ -101,7 +102,7 @@ main{
 .section-img{
     border-radius: 48px;
 }
-/* USER SECTION */
+/* USER SECTION STYLES */
 .user-section-container{
     background-color: rgba(78, 71, 255, 0.1);
     margin-bottom: 137px;
@@ -129,7 +130,7 @@ main{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
-/* USERS FEEDBACK SECTION */
+/* USERS FEEDBACK SECTION STYLES */
 .feedback-section-title {
     font-size: 42px;
     font-weight: bold;
@@ -161,7 +162,6 @@ main{
     line-height: 140%;
     margin-top: 8px;
     margin-bottom: 24px;
-    /* padding-right: 40px; */
     color: rgba(30, 30, 30, 1);
 }
 .users-all-info{
@@ -183,7 +183,7 @@ main{
     font-size: 16px;
     line-height: 140%;
 }
-/* FOCUS SECTION */
+/* FOCUS SECTION STYLES */
 .focus-section-container{
     background-color: #FFFFFF;
     text-align: center;
@@ -209,7 +209,7 @@ main{
     border-radius: 48px;
     margin-top: 20px;
 }
-/* FORM SECTION */
+/* FORM SECTION STYLES */
 .form-container{
     display: flex;
     justify-content: space-between;
@@ -252,5 +252,36 @@ textarea {
     border: none;
     margin-bottom: 71px;
 }
-    
+/* FOOTER SECTION STYLES */
+.footer-section{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+.footer-heading{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+.footer-description{
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(137, 135, 161, 1);
+    margin-bottom: 20px;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.footer-links a{
+    text-decoration: none;
+    text-align: center;
+    gap: 48px;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(137, 135, 161, 1);
+}
 
