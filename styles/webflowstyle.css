@@ -233,7 +233,7 @@ input[type=email],
 textarea {
     display: block;
     font-size: 20px;
-    width: 420px;
+    width: 497px;
     padding: 20px 32px;
     border: 1px solid #D6DDED;
     border-radius: 10px;
@@ -244,10 +244,9 @@ textarea {
     font-weight: bold;
     line-height: 150%;
     color: #FFFFFF;
-    width: 485px;
+    width: 497px;
     padding: 19px 0px;
     background-color: #4E47FF;
-    color: #FFFFFF;
     border-radius: 10px;
     border: none;
     margin-bottom: 71px;
