@@ -183,3 +183,29 @@ main{
     font-size: 16px;
     line-height: 140%;
 }
+/* FOCUS SECTION */
+.focus-section-container{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    margin-bottom: 93px;
+    border-radius: 14px;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.focus-description {
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.focus-img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
